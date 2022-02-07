@@ -1,0 +1,149 @@
+html{
+  size: 100%;
+  background: linear-gradient(#e66465, #9198e5) fixed;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  border-style: double;
+  border-radius: 15px;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: gold;
+}
+
+.authorList {
+  text-align: center;
+  border-top: 50px;
+}
+
+.author {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.authorButton {
+  padding: 15px;
+  padding-left: 75px;
+  padding-right: 75px;
+  background: linear-gradient(#9198e5, #e66465);
+  border-radius: 20px;
+}
+
+.authorButton:hover{
+  background-color: #ff8c00;
+  box-shadow: 0px 3px 0px lightsalmon;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 25px;
+  border-collapse: collapse;
+}
+
+thead>tr {
+  border: 3px ridge rgb(95, 165, 255);
+}
+
+th {
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.tdTask{
+  width: 500px;
+}
+
+tbody>tr {
+  border-bottom: 3px ridge rgb(95, 165, 255);
+  border-left: 3px ridge rgb(95, 165, 255);
+  border-right: 3px ridge rgb(95, 165, 255);
+}
+
+.tdImg {
+  width: 200px;
+}
+
+.imgIllustrationTask {
+  width: 70%;
+}
+
+.dlImg {
+  display: none;
+}
+.lblDlImg {
+  display: inline-block;
+  width: 100%;
+  background: rgb(25,255,0);
+  background: radial-gradient(circle, rgba(25,255,0,1) 0%, rgba(117,255,102,1) 35%, rgba(177,255,169,1) 100%);
+  border-radius: 20px; 
+}
+.lblDlImg:hover {
+  background: rgb(177,255,169);
+  background: radial-gradient(circle, rgba(177,255,169,1) 0%, rgba(117,255,102,1) 35%, rgba(24,255,0,1) 100%); 
+}
+
+.textTask {
+  border: none;
+  width: 100%;
+  text-align: center;
+  background-color: transparent;
+}
+
+.textTask:focus {
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.textNameTask {
+  text-align: center;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  margin-right: 5px;
+  width: 500px;
+}
+
+.btnSupprTask {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background: rgb(255,61,61);
+  background: radial-gradient(circle, rgba(255,61,61,1) 0%, rgba(178,0,0,1) 35%, rgba(140,0,0,1) 100%);  
+}
+.btnSupprTask:hover {
+  background: rgb(255,61,61);
+  background: radial-gradient(circle, rgba(140,0,0,1) 0%, rgba(178,0,0,1) 35%, rgba(255,61,61,1) 100%);
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 80%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}

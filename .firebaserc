@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "test-1-38325"
+  },
+  "targets": {
+    "test-1-38325": {
+      "hosting": {
+        "todo": [
+          "test-1-38325"
+        ]
+      }
+    }
+  }
+}
